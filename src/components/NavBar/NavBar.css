@@ -1,0 +1,46 @@
+/* Navbar Styles */
+.navbar1 {
+    background-color: #6c757d; /* Equivalent to bg-secondary */
+    padding: 10px;
+  }
+  
+  /* Flex container to align elements */
+  .navbar-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Left spacer to balance the layout */
+  .left-spacer {
+    width: 80px; /* Adjust to match button size */
+  }
+  
+  /* Centered Heading */
+  .navbar-heading {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Button aligned to the right */
+  .navbar-button {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .navbar-button:hover {
+    background-color: #0056b3;
+  }
+  

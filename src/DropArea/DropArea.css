@@ -1,0 +1,23 @@
+.drop_area{
+    height: 250px;
+    columns: #dcdcdc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 5px;
+    opacity: 1;
+    transition: all 0.3s  ease-in-out;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all 0.3s  ease-in-out;
+    -moz-transition: all 0.3s  ease-in-out;
+    -ms-transition: all 0.3s  ease-in-out;
+    -o-transition: all 0.3s  ease-in-out;
+}
+.hide_drop{
+
+    opacity: 0;
+    transition: all 0.2s  ease-in-out;
+
+}

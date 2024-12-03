@@ -1,0 +1,11 @@
+.temp{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    
+}
+.radioDiv{
+    display: flex;
+    gap: 10px;
+}
